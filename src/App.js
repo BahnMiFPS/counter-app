@@ -6,7 +6,7 @@ function App() {
 	const decrement = () => setCount(count - 1)
 	const increment = () => setCount(count + 1)
 	const resetCount = () => setCount(0)
-	let color = count < 0 ? "red" : count > 0 ? "green" : "white"
+	let color = count < 0 ? "var(--red)" : count > 0 ? "var(--green)" : "white"
 
 	return (
 		<div className="container">
